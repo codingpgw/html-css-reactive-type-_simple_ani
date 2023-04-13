@@ -1,0 +1,44 @@
+.Landing-page{
+    width:100%;
+}
+.main-page{
+    width:100%;
+    height:550px;
+    display:flex;
+    color:white;
+    padding:30px;
+    margin:auto;
+    box-sizing:border-box;
+    background:linear-gradient(skyblue,blue,purple);
+}
+.main-page > div{
+    margin-top:20px;
+    margin-left:80px;
+}
+.btn{
+    background:rgb(61, 60, 60);
+    color:white;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.main-img > img{
+    position:relative;
+    top:75px;
+}
+.Landing-project{
+    clear:both;
+    width:100%;
+    margin:auto;
+    text-align:center;
+    padding:60px;
+}
+.Landing-icon{
+    width:100%;
+    margin-top:130px;
+    background-color:rgb(106, 106, 243);
+    color:white;
+}
