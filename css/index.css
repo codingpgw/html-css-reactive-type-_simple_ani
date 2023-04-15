@@ -18,9 +18,7 @@
 .btn{
     background:rgb(61, 60, 60);
     color:white;
-    padding:10px;
-    padding-left:20px;
-    padding-right:20px;
+    padding: 10px 20px;
     border:none;
     border-radius:5px;
     cursor:pointer;
@@ -38,7 +36,28 @@
 }
 .Landing-icon{
     width:100%;
-    margin-top:130px;
+    height:400px;
+    padding:20px;
     background-color:rgb(106, 106, 243);
     color:white;
+    margin:130px auto;
+    right:100px;
+    position:relative;
+}
+.Landing-icon_i{
+    display:flex;
+    align-content:center;
+    text-align:center;
+    justify-content:center;
+}
+.Landing-icon i{
+    width:100px;
+    height:100px;
+    background-color:white;
+    color:rgb(106, 106, 243);
+    padding:20px;
+    border-radius:50px;
+    box-sizing:border-box;
+    margin-right:100px;
+    margin-left:100px;
 }
