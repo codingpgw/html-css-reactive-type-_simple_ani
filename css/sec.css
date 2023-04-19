@@ -1,0 +1,57 @@
+body{
+    background-color:#e0e2e4;
+}
+.top-profile{
+    width:100%;
+    line-height:10px;
+    background-color:white;
+    margin:50px auto;
+    padding:30px;
+    box-sizing:border-box;
+}
+.btn{
+    width:130px;
+    background-color:#6fbaf8;
+    padding:10px;
+    box-sizing:border-box;
+    color:white;
+    border-radius:5px;
+}
+.tprofile-m{
+    border-right:solid 1px #858686;
+}
+.tprofile-r{
+    padding:15px;
+    line-height:20px;
+    padding-left:40px;
+}
+.menu{
+    text-align:center;
+    color:#6fbaf8;
+    border-bottom:solid 1px #929191;
+}
+.inform{
+    background-color:white;
+    margin:10px auto;
+    padding:20px;
+    border-radius:10px;
+}
+span{
+    display:inline-block;
+    border:1px solid #929191;
+    border-radius:15px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin:auto;
+}
+.inform1{
+    margin:10px auto;
+    padding:20px;
+    border-radius:10px;
+}
+.friend{
+  margin:auto;
+  line-height:5px;
+  font-size:15px;
+}
