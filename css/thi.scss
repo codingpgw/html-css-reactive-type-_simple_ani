@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(173, 173, 173);
+    box-sizing:border-box;
+}
+li{
+    list-style:none;
+}
+.container-chart{
+    width:85%;
+    margin:auto;
+}
+.form-control:focus{
+    width:300px;
+    transition:all 1s;
+}
+.icon-name{
+    display:flex;
+    color:rgb(175, 175, 175);
+    float:right;
+    padding-right:10px;
+    li{
+        border:none;
+    }
+}
+.nav-link {
+    position: relative;
+}
+.badge {
+    position : absolute;
+    top: -5px;
+    left: 12px;
+}
+%color-box{
+    box-sizing:border-box;
+    padding:10px;
+    background-color:white;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin:10px auto;
+    align-items:center;
+    line-height:10px;
+    border-radius:10px;
+    p,h4{
+        position:relative;
+        top:20px;
+    }
+    i{
+        float:right;
+        position:relative;
+        bottom:30px;
+    }
+}
+.f-box{
+    @extend %color-box;
+    border-left:solid 2px lightskyblue;
+}
+.s-box{
+    @extend %color-box;
+    border-left:solid 2px greenyellow;
+}
+.t-box{
+    @extend %color-box;
+    border-left:solid 2px blue;
+}
+.fo-box{
+    @extend %color-box;
+    border-left:solid 2px yellow;
+}
+.side-bar{
+    height:100vh;
+    width:160px;
+    background-color:rgb(93, 93, 194);
+    padding:20px;
+    color:white;
+    z-index:5;
+    position:fixed;
+    margin:auto;
+    transform:translateX(-130px);
+    transition: all 1s;
+}
+.side-bar div {
+    margin: 12px 0px 0px 15px;
+}
+.side-bar i{
+    transition: all 1s;
+    transform:translateX(100px);
+}
+.side-bar:hover i{
+    transform:translateX(0px);
+}
+.side-bar:hover{
+    transform:translateX(0px);
+    float:none;
+}
