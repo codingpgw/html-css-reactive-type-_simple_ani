@@ -13,6 +13,28 @@
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
   <script>
+    function 할인(price, first_buy){
+        if(first_buy == true){
+            var sale_price = (price * 0.9 - 1.5).toFixed(1);
+            return parseFloat(sale_price) + '$';
+        }else{
+            var sale_price = (price * 0.9).toFixed(1);
+            return parseFloat(sale_price) + '$';
+        }
+    }
+    console.log(할인(70, false));
+    console.log(할인(10,true));
+    
+    function vat(a){
+      var num = (a * 11).toFixed(1);
+      return parseFloat(num);
+    }
+    function 함수(분, 초){
+      var time = ((분 * 60) + 초) * 1000;
+      return time + 'ms';
+    }
+    console.log(함수(2,10));
+
     var count = 0;
     $('#send-answer').on('click',function(){
         if($('#answer').val() == 1335){
